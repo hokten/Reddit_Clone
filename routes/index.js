@@ -11,7 +11,7 @@ router.get('/', function(req, res, next) {
 });
 
 
-
+// comment ve post parametleri hazirlaniyor
 router.param('comment', function(req, res, next, id) {
     var query = Comment.findById(id);
 
